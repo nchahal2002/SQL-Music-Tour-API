@@ -1,4 +1,4 @@
-'use strict'
+'use strict';
 const {
   Model
 } = require('sequelize');
@@ -15,9 +15,9 @@ module.exports = (sequelize, DataTypes) => {
   }
   Band.init({
     band_id: {
-      type: DataTypes.INTEGER,
-      primaryKey: true,
-      autoIncrement: true
+        type: DataTypes.INTEGER,
+        primaryKey: true,
+        autoIncrement: true
     },
     name: {
         type: DataTypes.STRING,
@@ -40,6 +40,6 @@ module.exports = (sequelize, DataTypes) => {
     modelName: 'Band',
     tableName: 'bands',
     timestamps: false
-  })
-  return Band
-}
+  });
+  return Band;
+};

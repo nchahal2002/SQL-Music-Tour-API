@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "Microlite3@",
+    "database": "music_tour",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "postgres",
+    "password": "Microlite3@",
+    "database": "music_tour test",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": "Microlite3@",
+    "database": "music_tour production",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}
